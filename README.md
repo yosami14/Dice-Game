@@ -29,11 +29,13 @@ This is a simple web-based dice game implemented using HTML, CSS, and JavaScript
 - Bootstrap CSS v5.2.1: Used for styling the page.
 - Font Awesome kit: Used for displaying icons.
 - Bootstrap JavaScript Libraries: Required for the functionality of Bootstrap components.
+- Lazy Size JavaScript Libraries: To improve the loading speed of the image in your web page.
 
 ## How to Customize
 
 - You can modify the dice images by replacing the existing image files located in the "Player 1(BW)" and "Player 2(RW)" folders.
 - The game outcome styles can be customized by modifying the CSS rules in the `<style>` tag or in the `style.css` file.
 
-Note: Make sure to keep the file structure and dependencies intact for the code to work properly.
+Note: Make sure to keep the file structure and dependencies intact for the code to work properly and images might be slow to load.
+
 - To play the Game https://yosami14.github.io/Dice-Game/

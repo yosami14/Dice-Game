@@ -27,8 +27,11 @@ function setRandomDiceImage(){
   let player1Value = randomNumber();
   let player2Value = randomNumber();
 
-  dislpayPlayer1Img.setAttribute('src',player1Img[player1Value])
-  dislpayPlayer2Img.setAttribute('src',player2Img[player2Value])
+  dislpayPlayer1Img.setAttribute('data-src',player1Img[player1Value]);
+  dislpayPlayer1Img.setAttribute('src',player1Img[player1Value]);
+
+  dislpayPlayer2Img.setAttribute('data-src',player2Img[player2Value]);
+  dislpayPlayer2Img.setAttribute('src',player2Img[player2Value]);
 
   let header = document.querySelector('h1');
     if(player1Value>player2Value){
