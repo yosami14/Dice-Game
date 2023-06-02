@@ -52,7 +52,7 @@ function setRandomDiceImage(){
 setRandomDiceImage();
 
 // Add an event listener to the "Refresh Me" heading to update the dice images on click
-let refresh = document.querySelector('.btn');
+let refresh = document.querySelector('.btns');
 refresh.addEventListener('click', setRandomDiceImage);
 
 
