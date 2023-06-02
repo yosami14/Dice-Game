@@ -1,0 +1,94 @@
+body{
+background-color: #C4D6B0;
+}
+h1{
+  font-size: 4rem;
+  color: #fff;
+}
+
+#players{
+  padding: 3% 2% 3%;
+
+}
+#players img{
+    width: 50%;
+    height: auto;
+}
+#replay {
+  transition: ease-in-out 0.3s;
+}
+
+#replay:hover {
+  color: #fffdfd;
+  cursor: pointer;
+}
+
+/* Button */
+
+.btn {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0000008f;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 20px;
+  position: relative;
+}
+
+.btn:hover {
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn:hover i {
+  /* Define the animation properties for hover state */
+  animation-name: roll;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*
+=====================
+CSS styles for Mobile devices 
+=====================
+*/
+
+/* Styles for phones */
+@media (max-width: 470px) {
+  h1{
+    font-size: 3rem;
+  }
+
+#players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+  #player img {
+    max-width: 80%;
+    height: auto;
+    }
+
+        .btn {
+          font-size: 1rem;
+
+
+        }
+}
