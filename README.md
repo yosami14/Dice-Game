@@ -36,4 +36,4 @@ This is a simple web-based dice game implemented using HTML, CSS, and JavaScript
 - The game outcome styles can be customized by modifying the CSS rules in the `<style>` tag or in the `style.css` file.
 
 Note: Make sure to keep the file structure and dependencies intact for the code to work properly.
-To play Game https://yosami14.github.io/Dice-Game/
+- To play Game https://yosami14.github.io/Dice-Game/
