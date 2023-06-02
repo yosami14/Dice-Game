@@ -36,12 +36,12 @@ function setRandomDiceImage(){
   let header = document.querySelector('h1');
     if(player1Value>player2Value){
         header.textContent = "Player 1 Wins";
-        header.style.color = "#a3333d";
+        header.style.color = "#291f1e";
         header.style.font= "bolder";
     }
       else if(player1Value<player2Value) {
         header.textContent = "Player 2 Wins";
-        header.style.color= "#291f1e";
+        header.style.color= "#a3333d";
         header.style.font= "bolder";
       }
         else {
